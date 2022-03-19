@@ -47,7 +47,7 @@ class YTDLSource(discord.PCMVolumeTransformer):
 
 client = discord.Client()
 bot = commands.Bot(command_prefix='!')
-token = credits.bot_token
+token = "".join(credits.bot_token)
 song = ''
 s_id = 0
 rep = 0
